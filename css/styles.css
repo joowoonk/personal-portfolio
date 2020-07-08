@@ -10644,13 +10644,20 @@ p.lead {
 
   flex: 1;
 }
+.project-column-icon {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+
+  flex: 1;
+}
 @media (max-width: 1000px) {
   .skills-row {
     display: block;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
 }
 @media (max-width: 900px) {
@@ -10701,6 +10708,7 @@ media .dev-icons {
 
 .project-icon {
   font-size: 1rem;
+  margin-right: 5%;
 }
 
 .project-image {
