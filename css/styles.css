@@ -10672,9 +10672,12 @@ p.lead {
   border-radius: 10px;
   border: 4px solid var(--blue);
 }
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   .project-image {
     margin: 3% auto;
+  }
+  .name {
+    font-size: 3rem;
   }
 }
 
