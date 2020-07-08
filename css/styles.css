@@ -647,6 +647,9 @@ pre code {
 .container-md,
 .container-sm {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
@@ -10579,9 +10582,13 @@ p.lead {
   display: flex;
   justify-content: flex-end;
   margin-right: 5%;
+  font-size: 1rem;
+}
+.used-source {
+  /* font-size: 0.5rem; */
 }
 .project-description {
-  /* width: 100%; */
+  margin-right: 10%;
   /* height: 30vh; */
 }
 .column {
@@ -10593,7 +10600,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   /* margin-left: 10%; */
   /* margin-bottom: 4%; */
   /* margin-top: 4%; */
@@ -10620,7 +10627,7 @@ p.lead {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: 10% auto;
   border-radius: 10px;
@@ -10648,6 +10655,7 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 768px) {
