@@ -522,7 +522,17 @@ mark,
 }
 
 .list-inline-item {
-  display: inline-block;
+  /* display: inline-block; */
+  font-size: 1.5rem;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .list-inline-item {
+    display: block;
+    font-size: 1.2rem;
+    margin-right: 50%;
+    width: 100%;
+  }
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -10610,6 +10620,13 @@ p.lead {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 80%;
+  font-size: 1.3rem;
+}
+.project-skills-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
 }
 .description {
@@ -10637,8 +10654,42 @@ p.lead {
 
   flex: 1;
 }
+@media (max-width: 1000px) {
+  .skill-columns {
+    display: block;
+  }
+  .resume-section-content {
+    margin: 0 auto;
+  }
+  .skills-row {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 1.3rem;
+  }
+  .project-skills-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .column {
+    display: block;
+    flex-direction: column;
+    flex-basis: 100%;
 
-.dev-icons {
+    flex: 1;
+  }
+  .list-inline {
+    /* padding-left: 0; */
+    /* list-style: none; */
+
+    display: block;
+    /* flex-wrap: wrap; */
+    /* width: 90%; */
+  }
+}
+media .dev-icons {
   font-size: 1.6rem;
   /* margin-left: 10%; */
   /* margin-bottom: 4%; */
@@ -10659,7 +10710,8 @@ p.lead {
 }
 
 .project-icon {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  width: 100%;
 }
 
 .project-image {
@@ -10703,6 +10755,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+    display: block;
   }
 }
 @media (min-width: 992px) {
