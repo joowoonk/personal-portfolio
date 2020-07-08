@@ -522,17 +522,7 @@ mark,
 }
 
 .list-inline-item {
-  /* display: inline-block; */
-  font-size: 1.5rem;
-  width: 100%;
-}
-@media (max-width: 900px) {
-  .list-inline-item {
-    display: block;
-    font-size: 1.2rem;
-    margin-right: 50%;
-    width: 100%;
-  }
+  display: inline-block;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -10655,18 +10645,18 @@ p.lead {
   flex: 1;
 }
 @media (max-width: 1000px) {
-  .skill-columns {
-    display: block;
-  }
-  .resume-section-content {
-    margin: 0 auto;
-  }
   .skills-row {
     display: block;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .skill-columns {
+    display: block;
+    font-size: 1.9rem;
   }
   .project-skills-row {
     display: flex;
@@ -10710,8 +10700,7 @@ media .dev-icons {
 }
 
 .project-icon {
-  font-size: 0.8rem;
-  width: 100%;
+  font-size: 1rem;
 }
 
 .project-image {
@@ -10755,7 +10744,6 @@ section.resume-section .resume-section-content {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
-    display: block;
   }
 }
 @media (min-width: 992px) {
