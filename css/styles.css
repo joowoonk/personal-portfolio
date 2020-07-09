@@ -10490,6 +10490,7 @@ h1 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  margin-right: 3%;
 }
 
 .subheading {
@@ -10634,7 +10635,7 @@ p.lead {
   /* font-size: 0.5rem; */
 }
 .project-description {
-  margin-right: 10%;
+  margin-right: 2%;
   /* height: 30vh; */
 }
 .column {
