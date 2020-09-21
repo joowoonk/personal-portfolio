@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --skyblue: skyblue;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -481,6 +482,8 @@ mark,
 }
 .project-title-image {
   display: flex;
+  align-items: center;
+  margin: 30px auto;
 }
 @media (max-width: 1200px) {
   .project-title-image {
@@ -518,11 +521,12 @@ mark,
 
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
 }
 
 .list-inline-item {
   display: inline-block;
+  width: 100%;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -10611,12 +10615,15 @@ p.lead {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   font-size: 1.3rem;
+}
+.project-image-tag {
+  width: 0;
 }
 .project-skills-row {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
   width: 100%;
 }
@@ -10624,6 +10631,7 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 3.5%;
   margin-top: 2%;
+  width: 100%;
 }
 .used {
   display: flex;
@@ -10637,19 +10645,21 @@ p.lead {
 .project-description {
   margin-right: 2%;
   /* height: 30vh; */
+  width: 50%;
 }
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
+  /* flex-basis: 100%; */
 
   flex: 1;
 }
 .project-column-icon {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   flex-basis: 100%;
-
+  flex-wrap: wrap;
+  width: 100%;
   flex: 1;
 }
 @media (max-width: 1000px) {
@@ -10659,6 +10669,11 @@ p.lead {
     flex-wrap: wrap;
     width: 80%;
     font-size: 1.35rem;
+  }
+  .project-description {
+    margin-right: 2%;
+    /* height: 30vh; */
+    width: 100%;
   }
 }
 @media (max-width: 1100px) {
@@ -10709,8 +10724,9 @@ media .dev-icons {
 }
 
 .project-list {
-  margin-top: 4%;
-  margin-bottom: 35%;
+  display: flex;
+  /* margin-top: 4%; */
+  /* margin-bottom: 35%; */
 }
 
 .project-last-list {
@@ -10723,14 +10739,14 @@ media .dev-icons {
 }
 
 .project-image {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  align-items: center; */
+  width: 600px;
   height: auto;
-  margin: 10% auto;
+  /* margin: 10% auto; */
   border-radius: 10px;
-  border: 4px solid var(--blue);
+  border: 4px solid var(--skyblue);
 }
 .views {
   display: none;
