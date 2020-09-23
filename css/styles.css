@@ -10630,6 +10630,9 @@ p.lead {
   flex-wrap: wrap;
   width: 100%;
 }
+.columns {
+  width: 49%;
+}
 .description {
   font-size: 1.5rem;
   margin-right: 3.5%;
@@ -10709,9 +10712,13 @@ p.lead {
     display: block;
     font-size: 1.9rem;
   }
+
   .project-skills-row {
     display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+  .columns {
     width: 100%;
   }
   .column {
