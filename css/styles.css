@@ -10694,6 +10694,16 @@ p.lead {
     width: 100%;
   }
 }
+@media (max-width: 1200px) {
+  .project-description {
+    margin-right: 2%;
+    /* height: 30vh; */
+    width: 100%;
+  }
+  .project-image-tag {
+    margin: 5px auto;
+  }
+}
 @media (max-width: 900px) {
   .skill-columns {
     display: block;
