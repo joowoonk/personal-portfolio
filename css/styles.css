@@ -10653,6 +10653,9 @@ p.lead {
   /* height: 30vh; */
   width: 50%;
 }
+.user-testing {
+  font-size: 1.2rem;
+}
 .column-title {
   width: 40%;
 }
