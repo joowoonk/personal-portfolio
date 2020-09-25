@@ -10773,7 +10773,9 @@ media .dev-icons {
   /* margin-left: 5%; */
   /* margin-right: 5%; */
 }
-
+.link {
+  color: #212529;;
+}
 .project-image {
   /* display: flex;
   justify-content: center;
