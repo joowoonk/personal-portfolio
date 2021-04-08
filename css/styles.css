@@ -10633,8 +10633,11 @@ p.lead {
 .columns {
   width: 49%;
 }
+.subtitle{
+  font-size: 1.3rem;
+}
 .description {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-right: 3.5%;
   margin-top: 2%;
   width: 100%;
