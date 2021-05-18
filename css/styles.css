@@ -6993,6 +6993,9 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
+.skills-section{
+  padding: 220px 0;
+}
 .embed-responsive {
   position: relative;
   display: block;
